@@ -62,7 +62,6 @@ plt.subplot(144),plt.imshow(sobel,cmap = 'gray'),plt.title('Sobel')
 plt.xticks([]), plt.yticks([])
 plt.show()
 
-
 #Laplacian
 laplacian = cv2.Laplacian(img,cv2.CV_64F)
 laplacianAbs = np.absolute(laplacian)
