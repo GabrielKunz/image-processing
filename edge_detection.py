@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread("./images/lena.tif",0)
+img = cv2.imread("./images/lena.png",0)
 
 #Roberts
 kernelRx = np.matrix([[1,0],[0,-1]])
